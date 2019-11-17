@@ -15,6 +15,35 @@ html {
   box-sizing: inherit;
 }
 
+img {
+  display: block;
+}
+
+
+
+
+/* components */
+
+.component img {
+  max-width: initial;
+}
+
+.component__image {
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
+
+.component__code {
+  border: 1px solid #ccc;
+}
+
+
+
+
+/* typography */
+
 body {
   font-family: var(--font-serif);
+  text-align: center;
+  font-size: 1.2em;
 }
