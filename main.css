@@ -7,6 +7,7 @@
   --tan: #f3eee7;
   --black: #000;
   --white: #fff;
+  --font-cursive: 'Dawning of a New Day', cursive;
 }
 
 html {
@@ -38,7 +39,9 @@ img {
   border: 1px solid #ccc;
 }
 
-
+.component__code--navy-blue {
+  background-color: var(--navy-blue);
+}
 
 
 /* typography */
@@ -49,9 +52,39 @@ body {
   font-size: 1.2em;
 }
 
+h1, h2, h3 {
+  text-align: left;
+}
+
 h1 {
   text-transform: uppercase;
   font-size: 2.65em;
-  text-align: left;
   font-weight: 300;
+}
+
+h2 {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.1em;
+  letter-spacing: 3px;
+}
+
+
+.h2--cursive-white {
+  font-family: var(--font-cursive);
+  color: var(--white);
+  text-transform: none;
+  font-size: 1.9em;
+  letter-spacing: -0.5px;
+  padding-left: 20px;
+}
+
+.h2--cursive-black {
+  font-family: var(--font-cursive);
+  color: var(--black);
+  text-transform: none;
+  font-size: 2.2em;
+  letter-spacing: -0.5px;
+  padding-left: 20px;
 }
