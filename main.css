@@ -1,7 +1,6 @@
 :root {
   --font-sans-serif: Montserrat, sans-serif;
   --font-serif:'Playfair Display', serif;
-  --font-serif--light:'Playfair Display', serif;
   --navy-blue: #253548;
   --blush: #e4cec;
   --tan: #f3eee7;
@@ -43,6 +42,9 @@ img {
   background-color: var(--navy-blue);
 }
 
+.component__code--tan {
+  background-color: var(--tan);
+}
 
 /* typography */
 
@@ -77,7 +79,6 @@ h2 {
   text-transform: none;
   font-size: 1.9em;
   letter-spacing: -0.5px;
-  padding-left: 20px;
 }
 
 .h2--cursive-black {
@@ -86,5 +87,18 @@ h2 {
   text-transform: none;
   font-size: 2.2em;
   letter-spacing: -0.5px;
-  padding-left: 20px;
+}
+
+.h2--bold {
+  font-family: var(--font-sans-serif);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+}
+
+.h2--capitalized {
+  font-family: var(--font-serif);
+  text-transform: uppercase;
+  font-size: 1.8em;
+  letter-spacing: 6px;
 }
