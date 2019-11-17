@@ -39,10 +39,12 @@ img {
 }
 
 .component__code--navy-blue {
+  border: 1px solid #ccc;
   background-color: var(--navy-blue);
 }
 
 .component__code--tan {
+  border: 1px solid #ccc;
   background-color: var(--tan);
 }
 
@@ -59,6 +61,7 @@ h1, h2, h3 {
 }
 
 h1 {
+  font-family: var(--font-serif);
   text-transform: uppercase;
   font-size: 2.65em;
   font-weight: 300;
@@ -71,7 +74,6 @@ h2 {
   font-size: 1.1em;
   letter-spacing: 3px;
 }
-
 
 .h2--cursive-white {
   font-family: var(--font-cursive);
@@ -101,4 +103,17 @@ h2 {
   text-transform: uppercase;
   font-size: 1.8em;
   letter-spacing: 6px;
+}
+
+h3 {
+  font-family: var(--font-serif);
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+.h3--capitalized {
+  font-family: var(--font-serif);
+  text-transform: uppercase;
+  font-size: 2.65em;
+  font-weight: 300;
 }
