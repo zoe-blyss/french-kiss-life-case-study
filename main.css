@@ -1,6 +1,7 @@
 :root {
   --font-sans-serif: Montserrat, sans-serif;
   --font-serif:'Playfair Display', serif;
+  --font-serif--light:'Playfair Display', serif;
   --navy-blue: #253548;
   --blush: #e4cec;
   --tan: #f3eee7;
@@ -46,4 +47,11 @@ body {
   font-family: var(--font-serif);
   text-align: center;
   font-size: 1.2em;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.65em;
+  text-align: left;
+  font-weight: 300;
 }
