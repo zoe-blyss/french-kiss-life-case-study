@@ -2,7 +2,7 @@
   --font-sans-serif: Montserrat, sans-serif;
   --font-serif:'Playfair Display', serif;
   --navy-blue: #253548;
-  --blush: #e4cec;
+  --blush: #E4CEC5;
   --tan: #f3eee7;
   --black: #000;
   --white: #fff;
@@ -11,6 +11,7 @@
 
 html {
   box-sizing: border-box;
+  padding: 20px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -25,17 +26,24 @@ img {
 
 /* components */
 
+h3 span {
+  background-color: var(--blush);
+  font-size: 1em;
+}
+
+
 .component img {
   max-width: initial;
 }
 
 .component__image {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   overflow-x: auto;
 }
 
 .component__code {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
+  background-color: var(--white);
 }
 
 .component__code--navy-blue {
@@ -46,6 +54,12 @@ img {
 .component__code--tan {
   border: 1px solid #ccc;
   background-color: var(--tan);
+}
+
+article {
+
+  padding-bottom: 50px;
+  border: 10px var(--blush) solid;
 }
 
 /* typography */
@@ -116,4 +130,29 @@ h3 {
   text-transform: uppercase;
   font-size: 2.65em;
   font-weight: 300;
+}
+
+button {
+  font-family: var(--font-sans-serif);
+  background-color: var(--navy-blue);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: .8em;
+  padding: 1.2em 2.5em;
+  letter-spacing: 4px;
+  border: none;
+}
+
+.button--blush {
+  color: var(--black);
+  background-color: var(--blush);
+}
+
+.button--white {
+  font-family: var(--font-serif);
+  font-style: italic;
+  text-transform: lowercase;
+  color: var(--black);
+  background-color: var(--white);
+  letter-spacing: 1px;
 }
