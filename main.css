@@ -47,13 +47,18 @@ h3 span {
 }
 
 .component__code--navy-blue {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   background-color: var(--navy-blue);
 }
 
 .component__code--tan {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   background-color: var(--tan);
+}
+
+.component__code--blush {
+  /* border: 1px solid #ccc; */
+  background-color: var(--blush);
 }
 
 article {
@@ -155,4 +160,45 @@ button {
   color: var(--black);
   background-color: var(--white);
   letter-spacing: 1px;
+}
+
+.nav-link {
+  font-family: var(--font-sans-serif);
+  color: var(--black);
+  text-transform: uppercase;
+  font-size: .8em;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+.nav-link--capitalized {
+  font-family: var(--font-serif);
+  color: var(--black);
+  text-transform: uppercase;
+  font-size: .75em;
+  letter-spacing: 2px;
+  text-align: left;
+}
+
+a:link {
+  color: var(--black);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: var(--black);
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: var(--blush);
+  text-decoration: none;
 }
