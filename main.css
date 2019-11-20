@@ -44,21 +44,25 @@ h3 span {
 .component__code {
   /* border: 1px solid #ccc; */
   background-color: var(--white);
+  padding-left: 15px;
 }
 
 .component__code--navy-blue {
   /* border: 1px solid #ccc; */
   background-color: var(--navy-blue);
+  padding-left: 15px;
 }
 
 .component__code--tan {
   /* border: 1px solid #ccc; */
   background-color: var(--tan);
+  padding-left: 15px;
 }
 
 .component__code--blush {
   /* border: 1px solid #ccc; */
   background-color: var(--blush);
+  padding-left: 15px;
 }
 
 article {
@@ -74,6 +78,14 @@ body {
   text-align: center;
   font-size: 1.2em;
 }
+
+.p--white {
+    font-family: var(--font-serif);
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--white);
+}
+
 
 h1, h2, h3 {
   text-align: left;
