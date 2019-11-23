@@ -278,3 +278,9 @@ a:active {
   font-size: .7em;
   font-weight: 700;
 }
+
+
+.banner {
+  display: flex;
+  align-items: center;
+}
