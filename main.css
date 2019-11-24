@@ -279,8 +279,44 @@ a:active {
   font-weight: 700;
 }
 
-
 .banner {
   display: flex;
   align-items: center;
+}
+
+/* .nav-bar {
+  display: flex;
+  justify-content: flex-end;
+} */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 20px;
+  text-align: right;
+}
+
+.section-02 {
+  display: inline-block;
+  position: relative;
+}
+
+.section-02 img {
+  display: inline-block;
+  position: relative;
+}
+
+.section-02 h1 {
+  margin-top: 5px;
+}
+
+.section-02 h2 {
+  text-align: center;
+  padding-bottom: 10px;
 }
