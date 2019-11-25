@@ -343,3 +343,25 @@ li {
 .section-03-grid-item-02 h2{
   text-align: center;
 }
+
+.footer-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: var(--navy-blue);
+}
+
+.footer-grid-item-01 li {
+  display: block;
+  text-align: center;
+  padding: 4px 0px;
+}
+
+.footer-grid-item-03 h3{
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.footer-grid-item-03 p{
+  font-size: .9em;
+}
