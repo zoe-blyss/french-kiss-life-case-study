@@ -328,3 +328,18 @@ li {
   text-align: center;
   padding-bottom: 10px;
 }
+
+.section-03-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: var(--navy-blue);
+}
+
+.section-03-grid-item-02{
+  justify-content: center;
+}
+
+.section-03-grid-item-02 h2{
+  text-align: center;
+}
