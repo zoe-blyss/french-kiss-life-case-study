@@ -365,7 +365,7 @@ li {
 
 
 .page-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -387,9 +387,9 @@ li {
   background: var(--navy-blue);
 }
 
-.page-section > * {
+/* .page-section > * {
   border: 1px solid blue;
-}
+} */
 
 
 .page-section h1 {
