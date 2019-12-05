@@ -470,6 +470,7 @@ li {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   background-color: var(--navy-blue);
+  padding: 40px;
 }
 
 @media (max-width: 700px) {
@@ -504,6 +505,18 @@ li {
 
 .footer-grid-item-03 p{
   font-size: .9em;
+}
+
+.footer--copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer--copyright img {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
