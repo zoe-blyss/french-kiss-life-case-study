@@ -44,7 +44,7 @@ h3 span {
 .component__code {
   /* border: 1px solid #ccc; */
   background-color: var(--white);
-  padding-left: 15px;
+  /* padding-left: 15px; */
 }
 
 .component__code--navy-blue {
