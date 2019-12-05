@@ -283,14 +283,6 @@ a:active {
 /* !!!!! Nav-bar needs work!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.nav-bar-grid-item {
-  display: inline-grid;
-}
-
-.banner {
-  display: flex;
-  align-items: center;
-}
 
 ul {
   list-style-type: none;
@@ -304,6 +296,46 @@ li {
   padding-right: 20px;
   text-align: right;
 }
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-grid-item {
+  display: block;
+}
+
+.header {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header > * {
+  border: 1px solid blue;
+}
+
+.header__logo {
+  width: 33%;
+}
+.header__utilities {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  display:flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+}
+.header__nav li {
+  padding: 0.75rem;
+}
+
+
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!! End of current nav-bar !!!!! */
