@@ -95,6 +95,7 @@ body {
   font-style: italic;
 }
 
+
 h1, h2, h3 {
   text-align: left;
 }
@@ -135,6 +136,10 @@ h2 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.4em;
+}
+
+.h2--bold-bottom-padding {
+  padding-bottom: 100px;
 }
 
 .h2--capitalized {
@@ -363,7 +368,7 @@ li {
 
 .hero {
   padding: 20px;
-  padding-bottom: 40px;
+  padding-bottom: 100px;
 }
 .hero h1{
   text-align: center;
@@ -378,24 +383,33 @@ li {
 .page-section {
   /* border: 1px solid red; */
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
 }
 
 .page-section__featured-media {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
 .page-section__content {
   padding: 1rem;
 }
-@media (min-width: 600px) {
+@media (max-width: 850px) {
   .page-section {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 .page-section__content--filled-navy {
   background: var(--navy-blue);
+}
+
+.page-section__content--filled-tan {
+  background: var(--tan);
+}
+
+.page-section__content--filled-white {
+  background: var(--white);
 }
 
 /* .page-section > * {
@@ -409,7 +423,14 @@ li {
 
 .page-section h2 {
   text-align: center;
-  padding-bottom: 10px;
+}
+
+.bottom-padding--100px .page-section h2{
+  padding-bottom: 100px;
+}
+
+.page-section .bottom-padding--50px {
+  padding-bottom: 50px;
 }
 
 /* ddddddd */
@@ -420,7 +441,7 @@ li {
 
 
 
-.section-03-grid-container {
+/* .section-03-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
@@ -433,7 +454,7 @@ li {
 
 .section-03-grid-item-02 h2{
   text-align: center;
-}
+} */
 
 .footer-grid-container {
   display: grid;
@@ -442,10 +463,29 @@ li {
   background-color: var(--navy-blue);
 }
 
+@media (max-width: 700px) {
+  .footer-grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid-item-01, .footer-grid-item-02, .footer-grid-item-03{
+    padding: 20px;
+  }
+
+  .footer-grid-item-02 img {
+    width: 100%;
+  }
+}
+
 .footer-grid-item-01 li {
   display: block;
   text-align: center;
   padding: 4px 0px;
+}
+
+.footer-grid-item-02 {
+  display: block;
+  text-align: center;
 }
 
 .footer-grid-item-03 h3{
@@ -455,4 +495,15 @@ li {
 
 .footer-grid-item-03 p{
   font-size: .9em;
+}
+
+
+/* -----padding-------- */
+
+.bottom-padding--50px {
+  padding-bottom: 50px;
+}
+
+.bottom-padding--100px {
+  padding-bottom: 100px;
 }
