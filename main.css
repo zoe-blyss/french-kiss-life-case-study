@@ -6,6 +6,7 @@
   --tan: #f3eee7;
   --black: #000;
   --white: #fff;
+  --light-grey: #E5E5E5;
   --font-cursive: 'Dawning of a New Day', cursive;
 }
 
@@ -301,13 +302,17 @@ li {
   text-align: right;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-}
-
 .nav-bar-grid-item {
   display: block;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .header {
@@ -315,6 +320,12 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+  border-bottom: 1px solid var(--light-grey);
+  background-color: var(--white);
 }
 
 /* .header > * {
@@ -339,16 +350,16 @@ li {
   padding: 0.75rem;
 }
 
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!! End of current nav-bar !!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.hero-video img {
+  width: 100%;
+}
+
 
 .hero {
   padding: 20px;
