@@ -609,8 +609,8 @@ li {
   padding-bottom: 100px;
 }
 
-.top-padding--300px {
-  padding-top: 300px;
+.top-padding--200px {
+  padding-top: 200px;
 }
 
 .top-padding--100px {
@@ -644,4 +644,10 @@ li {
   margin-right: auto;
   padding-bottom: 100px;
   margin-bottom: -100px;
+  z-index: -1;
+}
+
+.page-section--negative-z-index {
+  position: relative;
+  z-index: -10;
 }
