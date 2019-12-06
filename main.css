@@ -451,8 +451,31 @@ li {
   text-align: center;
 }
 
+.page-section--center {
+  background-image: url("components/images/div-bar-background-image.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 80% 1fr;
+  grid-template-rows: 100px 1fr 100px;
+}
 
+.page-section--center-content {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  background-color: var(--white);
+}
 
+.page-section--center-content h2 {
+  text-align: center;
+}
+
+.page-section--center-content h3 {
+  text-align: center;
+}
 
 /* .section-03-grid-container {
   display: grid;
@@ -542,8 +565,16 @@ li {
   padding-top: 300px;
 }
 
+.top-padding--100px {
+  padding-top: 100px;
+}
+
 .left-padding--negative50px {
   margin-left: -50px;
+}
+
+.bottom-padding--negative50px {
+  margin-bottom: -50px;
 }
 
 .center {
