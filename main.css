@@ -289,6 +289,10 @@ a:active {
   background-color: var(--blush);
 }
 
+.background--tan {
+  background-color: var(--tan);
+}
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!! Nav-bar needs work!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -491,6 +495,32 @@ li {
 .page-section--article-content h3{
   text-align: center;
 }
+
+.page-section--instagram {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 2px;
+}
+
+.page-section--instagram-headline {
+  grid-column-start: span 5;
+}
+
+.page-section--instagram-headline h2{
+  text-align: center;
+}
+
+.page-section--instagram-bottomline{
+  grid-column: span 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
 
 /* .section-03-grid-container {
   display: grid;
