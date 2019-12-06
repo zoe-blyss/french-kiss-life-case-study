@@ -23,9 +23,7 @@ img {
 }
 
 
-
-
-/* components */
+/* ---components----- */
 
 h3 span {
   background-color: var(--blush);
@@ -38,30 +36,24 @@ h3 span {
 }
 
 .component__image {
-  /* border: 1px solid #ccc; */
   overflow-x: auto;
 }
 
 .component__code {
-  /* border: 1px solid #ccc; */
   background-color: var(--white);
-  /* padding-left: 15px; */
 }
 
 .component__code--navy-blue {
-  /* border: 1px solid #ccc; */
   background-color: var(--navy-blue);
   padding-left: 15px;
 }
 
 .component__code--tan {
-  /* border: 1px solid #ccc; */
   background-color: var(--tan);
   padding-left: 15px;
 }
 
 .component__code--blush {
-  /* border: 1px solid #ccc; */
   background-color: var(--blush);
   padding-left: 15px;
 }
@@ -293,9 +285,8 @@ a:active {
   background-color: var(--tan);
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!! Nav-bar needs work!!!!! */
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* ----nav-bar----- */
 
 
 ul {
@@ -340,10 +331,6 @@ li {
   background-color: var(--white);
 }
 
-/* .header > * {
-  border: 1px solid blue;
-} */
-
 .header__logo {
   width: 33%;
 }
@@ -368,15 +355,10 @@ li {
   }
 }
 
-
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-/* !!!!! End of current nav-bar !!!!! */
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-
+/* ----page sections----- */
 .hero-video img {
   width: 100%;
 }
-
 
 .hero {
   padding: 20px;
@@ -389,7 +371,6 @@ li {
 .hero h2{
   text-align: center;
 }
-
 
 
 .page-section {
@@ -424,11 +405,6 @@ li {
   background: var(--white);
 }
 
-/* .page-section > * {
-  border: 1px solid blue;
-} */
-
-
 .page-section h1 {
   margin-top: 5px;
 }
@@ -448,8 +424,6 @@ li {
 .page-section .bottom-padding--50px {
   padding-bottom: 50px;
 }
-
-/* ddddddd */
 
 
 .page-section--centered {
@@ -524,21 +498,7 @@ li {
 }
 
 
-
-/* .section-03-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  background-color: var(--navy-blue);
-}
-
-.section-03-grid-item-02{
-  justify-content: center;
-}
-
-.section-03-grid-item-02 h2{
-  text-align: center;
-} */
+/* -----footer------ */
 
 .footer-grid-container {
   display: grid;
