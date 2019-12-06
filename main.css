@@ -430,6 +430,10 @@ li {
   text-align: center;
 }
 
+.page-section h3 {
+  text-align: center;
+}
+
 .bottom-padding--100px .page-section h2{
   padding-bottom: 100px;
 }
@@ -534,6 +538,14 @@ li {
   padding-bottom: 100px;
 }
 
+.top-padding--300px {
+  padding-top: 300px;
+}
+
+.left-padding--negative50px {
+  margin-left: -50px;
+}
+
 .center {
   display: block;
   margin-left: auto;
@@ -543,4 +555,12 @@ li {
 
 .initial {
   display: initial;
+}
+
+.page-section--blush-border {
+  border: 3px solid var(--blush);
+  width: 90%;
+  margin: 20px;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
 }
