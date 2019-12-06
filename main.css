@@ -477,6 +477,21 @@ li {
   text-align: center;
 }
 
+.page-section--articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-gap: 1rem;
+}
+
+.page-section--article-headline {
+  grid-column-start: span 4;
+}
+
+.page-section--article-content h3{
+  text-align: center;
+}
+
 /* .section-03-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -581,7 +596,6 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 .initial {
