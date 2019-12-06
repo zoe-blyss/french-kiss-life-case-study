@@ -1,2 +1,2 @@
 # french-kiss-life-case-study
-Case Study of a Design System for My Web Development Class
+case study design for my web development class
