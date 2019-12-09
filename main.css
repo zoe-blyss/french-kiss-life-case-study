@@ -12,7 +12,6 @@
 
 html {
   box-sizing: border-box;
-  /* padding: 20px; */
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -377,7 +376,7 @@ li {
   /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .page-section__featured-media {
